@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | To-Do List</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+    <header>
+        <div class="head">
+            <h1>To-Do-Listo</h1>
+        </div>
+    </header>
+    
+    <main>
+        <div class="login-container">
+            <div class="tabs">
+                <button class="tab active" onclick="mostrarFormulario('login')">Login</button>
+                <button class="tab" onclick="mostrarFormulario('registro')">Registro</button>
+            </div>
+
+            <!-- Formulario de Login -->
+            <form id="login-form" class="login-form">
+                <h2>Iniciar Sesión</h2>
+                <input type="text" id="login-nombre" name="nombre" placeholder="Ingrese su nombre" required>
+                <input type="password" id="login-password" name="password" placeholder="Ingrese su contraseña" required>
+                <input type="submit" value="Login">
+            </form>
+
+            <!-- Formulario de Registro -->
+            <form id="registro-form" class="register-form hidden">
+                <h2>Crear Cuenta</h2>
+                <input type="text" id="registro-nombre" name="nombre" placeholder="Ingrese su nombre" required>
+                <input type="password" id="registro-password" name="password" placeholder="Ingrese su contraseña" required>
+                <input type="submit" value="Registrar">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="foot">
+            <p>© 2023 To-Do List. Todos los derechos reservados.</p>
+            <p>Desarrollado por: <a href="#">Matias Cañola</a> | <a href="#">GitHub</a></p>
+        </div>
+    </footer>
+
+    <script src="login.js"></script>
+</body>
+</html>

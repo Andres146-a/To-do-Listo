@@ -1,0 +1,21 @@
+{
+  "name": "to-do-list-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "run-app": "ts-node ./App.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "to-do-list-app": "file:"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0"
+  }
+}

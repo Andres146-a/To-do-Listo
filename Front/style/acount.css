@@ -1,0 +1,55 @@
+/* 🔵 Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1b1b32;
+    color: #0ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* 🔵 Contenedor Principal */
+.account-container {
+    background: #222;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 20px #0ff;
+    width: 300px;
+}
+
+/* 🔵 Imagen de Perfil */
+.profile-picture img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #0ff;
+    box-shadow: 0 0 10px #0ff;
+}
+
+/* 🔵 Información del Usuario */
+.user-info {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* 🔵 Botón de Regresar */
+.btn-back {
+    background-color: transparent;
+    color: #0ff;
+    border: 2px solid #0ff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn-back:hover {
+    background-color: #0ff;
+    color: #000;
+    box-shadow: 0 0 10px #0ff;
+}
