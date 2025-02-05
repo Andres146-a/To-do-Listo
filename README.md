@@ -21,32 +21,6 @@ En esta aplicación, se utiliza localStorage para almacenar tareas sin necesidad
 
     Nota: El almacenamiento de datos se realiza en localStorage, lo que significa que los datos solo están disponibles en el navegador donde fueron registrados.
   
-Aquí tienes una versión mejorada del README para tu proyecto en GitHub:
-
-📝 To-do-Listo - Proyecto de Vacaciones
-"To-do-Listo" es una aplicación de gestión de tareas inspirada en aplicaciones de organización.
-En esta aplicación, se utiliza localStorage para almacenar tareas sin necesidad de una base de datos, lo que facilita su implementación y uso.
-
-🚀 Características
-✔ Registro e inicio de sesión con almacenamiento en localStorage.
-✔ Gestión de tareas: crear, editar y eliminar tareas fácilmente.
-✔ Clasificación de tareas por diferentes tipos.
-✔ Notificación visual de tareas vencidas.
-✔ Interfaz intuitiva y fácil de usar.
-
-📌 Login y Registro
-🔑 Inicio de sesión
-Permite al usuario autenticarse en la aplicación o crear una cuenta.
-
-
-
-📝 Registro
-El usuario introduce su nombre y edad (utilizada como contraseña).
-
-
-
-Nota: El almacenamiento de datos se realiza en localStorage, lo que significa que los datos solo están disponibles en el navegador donde fueron registrados.
-
 🏠 Menú Principal
     Desde aquí, los usuarios pueden acceder a las distintas secciones de la aplicación.
     ![image](https://github.com/user-attachments/assets/63f3cd61-8d91-45f8-ae21-8da82cc346a5)
